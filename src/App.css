@@ -1,0 +1,13 @@
+main {
+    overflow: scroll;
+    height: 88dvh;
+}
+
+.gallary {
+    display: grid;
+    gap: 9px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin: 9px;
+    padding: 9px;
+    overflow: scroll;
+}

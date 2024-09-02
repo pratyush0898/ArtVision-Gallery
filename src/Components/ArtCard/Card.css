@@ -1,0 +1,59 @@
+.card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background: transparent;
+  color: #fff;
+  transition: all 333ms ease-in-out;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  padding: 10px;
+  margin-left: 74%;
+  transition: all 333ms ease-in-out;
+}
+
+.save-button {
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  padding: 5px 8px;
+  cursor: pointer;
+  transition: all 333ms ease-in-out;
+}
+
+.download-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: all 333ms ease-in-out;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all 333ms ease-in-out;
+  border-radius: 8px;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  transition: all 333ms ease-in-out;
+}
+
+.card .hover {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 333ms ease-in-out, visibility 1111ms ease-in-out;
+}
+
+.card:hover .hover {
+  opacity: 1;
+  visibility: visible;
+}
